@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 5vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 3vh;
+  margin:1vh;
+}
+      
+#weather-details {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#weather-details h2 {
+  font-size: 4vh;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#weather-details p {
+  font-size: 3vh;
+  margin: 10px 0;
+}
+
+#weather-details img {
+  height: 3.5vh;
+  width: 3.5vh;
+}
+
+.card
+{
+  text-align: center;
+  position: absolute;
+  background-color:rgb(243, 183, 18);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: min-content;
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+  
+input[type="text"] {
+  padding: 0.5vh;
+  margin: 1.5vh;
+  border: none;
+  font-size: 3vh;
+  height:5vh;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button[type="submit"] {
+  font-size: 3vh;
+  padding: 0.5vh 1vw;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(12,72,237);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 475px) {
+    .card{
+        width: 80vw;
+    }
+    input[type="text"]{
+        width: 70vw;
+    }
+    #weather-details{
+      width: 70vw;
+    }
+    button[type="submit"]{
+      padding: 0.5vh 2vw;
+    }
+}
+
+.details
+{
+    top:95%;
+    left:50%;
+    transform: translate(-50%,-95%);
+}
