@@ -9,7 +9,7 @@ searchForm.addEventListener("submit", function(event) {
   event.preventDefault(); // prevent the default form submission behavior
 
   const city = cityInput.value;
-  const apiKey = API_KEY; // Replace this with your API key
+  const apiKey = '3b03e79f7d6b34b9c0eb3ba8b317d264'; // Replace this with your API key
 
   // Construct the API URL using the city and API key
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
