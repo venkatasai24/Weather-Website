@@ -86,7 +86,8 @@ input[type="text"]:focus {
 
 button[type="submit"] {
   font-size: 3vh;
-  padding: 0.5vh 1vw;
+  padding: 1vh 2vw;
+  margin:10px auto;
   border-radius: 5px;
   border: none;
   background-color: rgb(12,72,237);
@@ -109,13 +110,13 @@ button[type="submit"]:hover {
       width: 70vw;
     }
     button[type="submit"]{
-      padding: 0.5vh 2vw;
+      padding: 1vh 2vw;
     }
 }
 
 .details
 {
-    top:95%;
+    top:80%;
     left:50%;
-    transform: translate(-50%,-95%);
+    transform: translate(-50%,-80%);
 }
