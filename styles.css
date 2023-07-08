@@ -99,6 +99,14 @@ button[type="submit"] {
 button[type="submit"]:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.details
+{
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-80%);
+}
+
 @media (max-width: 475px) {
     .card{
         width: 80vw;
@@ -112,11 +120,4 @@ button[type="submit"]:hover {
     button[type="submit"]{
       padding: 1vh 2vw;
     }
-}
-
-.details
-{
-    top:80%;
-    left:50%;
-    transform: translate(-50%,-80%);
 }
